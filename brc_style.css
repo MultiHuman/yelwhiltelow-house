@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+div {
+  color: white;
+}
+
+select {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width:100%;
+}
+
+button {
+  font-size: 20px;
+}
+
+#changing_area {
+  display:inline-block
+}
+
+#button_area {
+  text-align: right;
+}
+
+#print {
+  font-size: 50px;
+}

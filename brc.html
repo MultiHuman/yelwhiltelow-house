@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Base Radix Converter</title>
+  <link rel="stylesheet" href="brc_style.css">
+  <script src="brc_script.js"></script>
+</head>
+<body>
+  <h1><a href="index.html">Home</a></h1>
+  <ul>
+    <li><a href="dev.html">제작자</a></li>
+    <li><a href="calc.html">계산기</a></li>
+    <li><a href="brc.html">진법 변환</a></li>
+    <li><a href="ascii.html">ASCII 변환기</a></li>
+  </ul>
+  <div id="changing_area">
+    <label for="brc">몇 진수를 몇 진수로 바꾸실 건가요?</label><br>
+    <select id="brc">
+      <option value="non">선택해주세요</option>
+      <option value="ten_to_two">10진수를 2진수로</option>
+      <option value="two_to_ten">2진수를 10진수로</option>
+    </select><br>
+      <textarea id="pre" placeholder="수 입력"></textarea><br>
+    <div id="button_area">
+      <button id="change_button">변환</button>
+    </div>
+  </div>
+  <div id="print">결괏값</div>
+</body>
+</html>

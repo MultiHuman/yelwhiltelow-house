@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>ASCII Converter</title>
+  <link rel="stylesheet" href="ascii_style.css">
+  <script src="ascii_script.js"></script>
+</head>
+<body>
+  <h1><a href="index.html">Home</a></h1>
+  <ul>
+    <li><a href="dev.html">제작자</a></li>
+    <li><a href="calc.html">계산기</a></li>
+    <li><a href="brc.html">진법 변환</a></li>
+    <li><a href="ascii.html">ASCII 변환기</a></li>
+  </ul>
+  <div id="changing_area">
+    <label for="area">어떤 것을 어떤 것으로 바꾸실 건가요?</label><br>
+    <select id="area" onchange="ChangeOptions()">
+      <option value="non">선택해주세요</option>
+      <option value="num_to_char">수를 문자로</option>
+      <option value="char_to_num">문자를 수로</option>
+    </select><br>
+      <textarea id="pre"></textarea><br>
+    <div id="button_area">
+      <button id="change_button">변환</button>
+    </div>
+  </div>
+  <div id="print">결괏값</div>
+</body>
+</html>
